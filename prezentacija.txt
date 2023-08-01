@@ -1,0 +1,4 @@
+Slajd:
+Inicijalna ideja 
+    Udarimo bfs na oba algoritma, vidimo gde se razlikuju
+    Koristimo standardne naicne za ubacivanje i izbacivanje cvorova
