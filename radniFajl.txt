@@ -1,0 +1,32 @@
+Minimum tree alignment
+
+1. 8. 2023.  Razumevanje problema:
+
+Algoritam koji se koristi za upoređivanje i poravnavanje drveta 
+kako bi se pronašle sličnosti i razlike među njima. 
+Ova tehnika je posebno korisna u bioinformatičkim analizama, 
+kao i u analizama podataka gde se podaci organizuju u hijerarhijske strukture.
+
+MTA se koristi za pronalaženje sličnosti između dva drveta koja mogu predstavljati 
+na primer evolucionu relaciju među genima, jezičku strukturu, 
+hijerarhijsku organizaciju direktorijuma ili bilo koju drugu hijerarhijsku strukturu. 
+Ovaj algoritam može biti koristan i za poređenje grafova koji imaju izmenjene čvorove, 
+umetnute ili izbrisane čvorove ili grane.
+
+Cilj MTA algoritma je pronaći najmanje razlike između dva drveta, tj. najmanje promene 
+koje je potrebno napraviti u jednom od drveta kako bi se došlo do drugog drveta. 
+To se postiže identifikacijom odgovarajućih čvorova i grana između dva drveta kako bi 
+se postigla najmanja ukupna razlika.
+
+MTA se koristi u različitim oblastima, uključujući:
+
+1. Bioinformatika: Za poređenje evolucionih stabala gena kako bi se otkrile sličnosti i 
+razlike u genetskim evolucionim procesima.
+
+2. Lingvistika: Za poređenje sintaktičkih stabala u jeziku kako bi se analizirala 
+gramatička sličnost i struktura rečenica.
+
+3. Računarske nauke: Za upoređivanje struktura podataka kao što su hijerarhijski 
+modeli baza podataka, direktorijumi i drugi grafovi.
+
+MTA može biti složen algoritam, posebno za velike i kompleksne strukture podataka.
