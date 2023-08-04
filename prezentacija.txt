@@ -2,3 +2,5 @@ Slajd:
 Inicijalna ideja 
     Udarimo bfs na oba algoritma, vidimo gde se razlikuju
     Koristimo standardne naicne za ubacivanje i izbacivanje cvorova
+
+https://link.springer.com/article/10.1186/1471-2105-13-293

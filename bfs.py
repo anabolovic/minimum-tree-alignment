@@ -15,9 +15,11 @@ def bfsModified(graph_fst, start_fst, graph_snd, start_snd):
     while queue_fst or queue_snd:
         if len(queue_fst) == 0:
             alignment_cost += len(queue_snd)
+            print("Second graph is longer")
             break
         if len(queue_snd) == 0:
             alignment_cost += len(queue_fst)
+            print("First graph is longer")
             break
             
         current_node_fst = queue_fst.popleft()
@@ -56,11 +58,9 @@ if __name__ == "__main__":
     graph_snd = {
         'A': ['B', 'C'],
         'B': ['A', 'D', 'M'],
-        'C': ['A', 'F', 'H'],
+        'C': ['A'],
         'D': ['B'],
-        'M': ['B'],
-        'F': ['C'],
-        'H': ['C']
+        'M': ['B']
     }
 
     bfsModified(graph_fst, 'A', graph_snd, 'A')
@@ -69,6 +69,6 @@ if __name__ == "__main__":
 G = nx.DiGraph(graph_fst)
 
 # Draw the graph using networkx and matplotlib
-''' pos = nx.spring_layout(G, seed=42) 
+pos = nx.spring_layout(G, seed=42) 
 nx.draw(G, pos, with_labels=True, node_size=1000, node_color='skyblue', font_size=12, font_weight='bold')
-plt.show() '''
+plt.show() 

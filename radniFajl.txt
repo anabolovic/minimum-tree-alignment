@@ -32,3 +32,4 @@ modeli baza podataka, direktorijumi i drugi grafovi.
 MTA može biti složen algoritam, posebno za velike i kompleksne strukture podataka.
 
 
+
